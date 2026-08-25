@@ -1,1 +1,30 @@
-{"channel":"preview","status":"setup","artifacts":[]}
+{
+  "schemaVersion": 1,
+  "version": "0.3.0",
+  "channel": "preview",
+  "name": "Enthalpy v0.3.0",
+  "notes": "Preview release for Enthalpy v0.3.0.\n\nPrivate source commit: de5d8572368007fdcbb2756953a242f42131b351\nSource workflow run: https://github.com/morochena/enthalpy/actions/runs/32901790881\n",
+  "publishedAt": "2026-08-25T21:44:06Z",
+  "artifacts": [
+    {
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.3.0/Enthalpy-0.3.0-darwin-arm64.zip",
+      "platform": "darwin",
+      "arch": "arm64",
+      "size": 9279695,
+      "digestAlgo": "sha512",
+      "digest": "4GMOeiTVmN0KhVNdHgjZKEHxxMpI6XkQ11Vn0RktV98vXyk2OSlaOoZZPPxd+S/e7IFcSWPqS/epXBZ08xKGRw==",
+      "signatureAlgo": "ed25519ph",
+      "signature": "paHyiwA9j+RcoEyypSfOEtE7Qh3MbWyUjMCa1AHy/jPLTnr3yiHcZ8eO4neh0h4YQY0VVgpUMkdXnqnbRY+aAg=="
+    },
+    {
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.3.0/Enthalpy-0.3.0-windows-amd64.exe",
+      "platform": "windows",
+      "arch": "amd64",
+      "size": 22571520,
+      "digestAlgo": "sha512",
+      "digest": "MITCYJQLU/zd06b6GUz2SXbH9MwKmnx7iEb6UDnbOc7wqNIzmsVHsXIwOgo5FxHVu+VBS83skMIB+R5Tv0UYnQ==",
+      "signatureAlgo": "ed25519ph",
+      "signature": "E1i3NmCDFvxq6UTtdGMfuQl3CN8wtj9+ChEgeEfkrVWlMMCwb8U325P7Nj9X3SGODBpMAUvFchI2rUrMmRqmCw=="
+    }
+  ]
+}
