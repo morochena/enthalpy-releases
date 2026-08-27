@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.4",
+  "version": "0.4.5",
   "channel": "preview",
-  "name": "Enthalpy v0.4.4",
-  "notes": "# Enthalpy v0.4.4\n\n## Fixed\n\n- Runs first Sync setup in the background so that one long desktop request cannot stop it.\n- Shows the current setup stage while Enthalpy checks, encrypts, uploads, verifies, and activates the workspace.\n- Recovers from temporary desktop connection errors and reports a safe, stage-specific error when setup stops.\n- Prevents two first-time Sync setup operations from running at the same time.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS Apple Silicon.\n- Use only disposable test data until the independent protocol and cryptographic review is complete.\n- Windows Sync enrollment remains disabled.\n",
-  "publishedAt": "2026-08-27T08:32:35Z",
+  "name": "Enthalpy v0.4.5",
+  "notes": "# Enthalpy v0.4.5\n\n## Changed\n\n- Lets a signed-in device connect to a synced workspace with its workspace passphrase and an empty local folder. Device approval codes are no longer required.\n- Keeps first Sync setup in one Go operation and shows one clear busy state while setup runs.\n- Transfers workspace files as exact bytes when Enthalpy metadata is invalid. Unsafe paths, linked entries, unreadable files, and changing files still stop Sync.\n- Uses one matched Wails runtime version in the application, generated bindings, and build tools.\n\n## Fixed\n\n- Keeps native folder handles open until operating-system file calls finish.\n- Accepts a remote result when another device has already published the same\n  local tree. This prevents a needless merge and an incorrect offline state.\n- Keeps conflict packages complete across restart and removes the complete\n  package after the user applies a resolution.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS Apple Silicon and Windows x64.\n- Use only disposable test data until the independent protocol and cryptographic review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n",
+  "publishedAt": "2026-08-27T21:05:19Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.4/Enthalpy-0.4.4-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.5/Enthalpy-0.4.5-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 10167647,
+      "size": 10153040,
       "digestAlgo": "sha512",
-      "digest": "i+M7QtKQp7yiIJxHb486PBCR8P5+jyBiWg9CA6I3G3Fyfp7BDqt7N2BoTA54ti25zY9spM2mOuo1N0wL8v2NFQ==",
+      "digest": "dVmdxKtJDwj/U3YeA1uU6pDvOb5BMc4jAgNCZQfR3jxGeE1lxuPyEqLvLcFHn5eub5ob/IMOT+ly8MRIMdEowQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "kw6f+piRte5hu2pppXkAvYznF3/PvjB9IQta4VY4oahzHexNbhvn5I0rUQUDEO7gcw9tDUTihZl3Y+6Q+6TdAg=="
+      "signature": "3k7uQ3HelycZGmcAXnUkCFufsb6n2yIUP4EaoZIg/M6ioBH9Wx8ImCnRUuWbFXBnrkejWrX+F6oNI0XS1oLIAA=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.4/Enthalpy-0.4.4-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.5/Enthalpy-0.4.5-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 25333760,
+      "size": 25277952,
       "digestAlgo": "sha512",
-      "digest": "2mOE6dLr731ggOHiX3piIaOFYM9W/jee6/rHOsdWFQnBFwaVbvAz4L8AHoq27KQp9tYQYj64u7lGBZBo0DITdw==",
+      "digest": "LivP//jQpKw7oAeed4fEU0wRReT17iT7v/n+5pxQtIcXfvBhdz361bZEwrVw3wZK/II3S0SYg67084MFoZzg2g==",
       "signatureAlgo": "ed25519ph",
-      "signature": "ppIoZWL7kpH6FK2rCEsaA4qLfO72IubpEux9bkcYn4wizcGomqlQj695x5z9w5tOF1VAnZF2JsTK0U2/DAMdAA=="
+      "signature": "2T2P4U8P3wkbUJhWbd60gmW8GyY3fdEeCQbe+9RZ6+LZhIFaCmOTQ48bc5o3wJnMoLBCGU1BQNKnTXrjSx8VAg=="
     }
   ]
 }
