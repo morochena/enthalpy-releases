@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.0",
+  "version": "0.4.1",
   "channel": "preview",
-  "name": "Enthalpy v0.4.0",
-  "notes": "Preview release for Enthalpy v0.4.0.\n\nPrivate source commit: 65d826d82766f19bf61604710549613b73bfca06\nSource workflow run: https://github.com/morochena/enthalpy/actions/runs/33020623488\n",
-  "publishedAt": "2026-08-26T22:52:45Z",
+  "name": "Enthalpy v0.4.1",
+  "notes": "# Enthalpy v0.4.1\n\n## Fixed\n\n- Lets invited macOS users turn on Hosted Sync after an update from v0.3.0 to v0.4.0.\n- Validates the Hosted Sync receipt key before Enthalpy starts.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS Apple Silicon.\n- Use only disposable test data until the independent protocol and cryptographic review is complete.\n- Windows Sync enrollment remains disabled.\n",
+  "publishedAt": "2026-08-27T01:16:11Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.0/Enthalpy-0.4.0-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.1/Enthalpy-0.4.1-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 10149063,
+      "size": 10150789,
       "digestAlgo": "sha512",
-      "digest": "hxLpa21/Ndlx+vsfQzsMYKQjzMy2aIivx7A/YS0drLS3Wcte48ezfHy/iIGhRdPEFEawIO45/2fjqOxI3jI18A==",
+      "digest": "gfR342cSk3Avz64IPVUysLpIYBWNirHY3e4iQLf8gnC7HeUeBFVHvCi/O1NpmmSUZDCWRPsTenTkw6O4Mnn2aw==",
       "signatureAlgo": "ed25519ph",
-      "signature": "2tYuGCLjmMfY5fdvg76vlgmgyZnxLL6a4WeSLsT60q2hdBYdA/6ayZ1NwohjpdJ8/9FSR/7ycENoU+UBFhclBg=="
+      "signature": "QRPCNwR0GeieVFkGzTON38SHkAStYCYFr1JbwDn6wtNI58u+pZk5jYXVMTNdyJg2HdNywIZhm+hvNvxFP7UJDQ=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.0/Enthalpy-0.4.0-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.1/Enthalpy-0.4.1-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 25285120,
+      "size": 25289728,
       "digestAlgo": "sha512",
-      "digest": "K1IMDvQX7IBJpdNc1W0An5OaqK/4u5HP9kubXUCPWXZpw5GvmQNzdtaYZOSyCTHOevJCaTMEUt6x1wqasO01sg==",
+      "digest": "f2IBVy4MRhjaa4gQwm9JzZkdTTHGZO0+ZNllsB397Fi4iroMUPgvAPgRHMf/mQeqq6ZTPL8R8lLtA93Cqk0BxA==",
       "signatureAlgo": "ed25519ph",
-      "signature": "/s1GGAeH6hFhwmTb63nya5HVTDQr/0pis7plZNJqtHYsJvkj85c/gVWXVIBei/iQeIVhVZr3DGVS77i+vIXYAQ=="
+      "signature": "IHKjeSQ6CtfH2fVSigw32A6feOphFj+PEWlJQI6VA2E9QO1gfJZe8TXzsO/OyNfPxz5cJGB0h7fai4+L0glIDw=="
     }
   ]
 }
