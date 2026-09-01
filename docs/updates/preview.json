@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.6",
+  "version": "0.4.7",
   "channel": "preview",
-  "name": "Enthalpy v0.4.6",
-  "notes": "# Enthalpy v0.4.6\n\n## Changed\n\n- Shows the current phase and progress while Enthalpy sets up Sync or opens a\n  workspace from Sync. The workspace stays available during first setup.\n- Validates and creates a new local folder from a selected parent folder and\n  workspace name when the user opens a workspace from Sync.\n- Prevents an old view result from replacing the current result after the user\n  quickly changes a view or workspace.\n\n## Fixed\n\n- Prevents rapid local note saves from being handled as external edits. Normal\n  task creation and task changes no longer cause a false ambiguous task-marker\n  conflict.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon and Windows x64.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n",
-  "publishedAt": "2026-09-01T01:14:19Z",
+  "name": "Enthalpy v0.4.7",
+  "notes": "# Enthalpy v0.4.7\n\n## Fixed\n\n- Includes the required time-zone definitions in the Windows application. A\n  new or existing workspace now loads with a valid local time zone instead of\n  showing “The time zone is not valid.”\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon and Windows x64.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n",
+  "publishedAt": "2026-09-01T02:37:55Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.6/Enthalpy-0.4.6-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.7/Enthalpy-0.4.7-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 10203426,
+      "size": 10302140,
       "digestAlgo": "sha512",
-      "digest": "eAMazqd47KcAq38KT3t4T13kxWEKTYzHLtufP+g9fzk0kbwG8Tlm9KPLzpu/eBhtQGRyRFsjkHddW7x1KzKPlQ==",
+      "digest": "7MVmy3VZUs1E0VApbCQnPFxjRjmgxQ59xhJRnOEhf4bxCv9f/UTOvp7wdHPyVNMmSoXSgUqIMrdTJev4MPmU2w==",
       "signatureAlgo": "ed25519ph",
-      "signature": "BKP+4JxMADOkF9EplIs6X6/bnDBsrxKUVFQTYgZaxEQorwrluTnXtgWVxrupW0//JGzS3SksUHHYCsVWSrlWDg=="
+      "signature": "SNMOuqtSieUF00WwKHNpfonR1Z7+3nRAbPk3jNGEThfYyEnSil1vrGqUY5YqEtE9W6+fqO+Ket99mP0DGlr0Dg=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.6/Enthalpy-0.4.6-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.7/Enthalpy-0.4.7-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 25453568,
+      "size": 25864704,
       "digestAlgo": "sha512",
-      "digest": "k4EffFaGVHTqpgW0Hl4gdW5XIaTZMffxpDsjFoMvi/JXJi0HbumqfdYgoOzVcUvAcOOG5zhEC5mAZXaqr22EvA==",
+      "digest": "L7ycGHASZyPaXEnO2pap0pPcDYfzyfzMLyxwZ3kG4HYCQwOJ0ZJtOueA869AA8z/w18u4ZNcEyQqFbHxBLVctw==",
       "signatureAlgo": "ed25519ph",
-      "signature": "f9i2BNDXkYxRgG+BD9u1a9UJFrEYCfeW6Lh4Qy9qLKejRECmwrYgQwGLIMN/TbMGsb3+410G9GOimxtStCFgBA=="
+      "signature": "j6ZB4IMpn4pitaE5LiDYrkBn45ECnJmHseqw98wCb1YQCSpfR6uCZvun13rXZIJW9oKJqTHUIjrPIIGHGKE4DA=="
     }
   ]
 }
