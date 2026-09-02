@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.9",
+  "version": "0.4.10",
   "channel": "preview",
-  "name": "Enthalpy v0.4.9",
-  "notes": "# Enthalpy v0.4.9\n\n## Fixed\n\n- Open from Sync shows the sign-in form on that screen and the screen scrolls.\n\n## Added\n\n- Linux x64 AppImage is available for install.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon and Windows x64.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n",
-  "publishedAt": "2026-09-01T18:02:19Z",
+  "name": "Enthalpy v0.4.10",
+  "notes": "# Enthalpy v0.4.10\n\n## Fixed\n\n- Windows: opening an existing vault shows the sign-in form on that screen\n  (email and password).\n- Linux x64 AppImage launches with bundled graphics libraries. The missing\n  libEGL.so.1 error is resolved.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon and Windows x64.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n",
+  "publishedAt": "2026-09-02T00:40:42Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.9/Enthalpy-0.4.9-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.10/Enthalpy-0.4.10-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 10301596,
+      "size": 10301597,
       "digestAlgo": "sha512",
-      "digest": "syp6b9SCS9nMs9PcVYsuIHI1ltFvAFkbsP/ujNRU7x4/1/kqEbagNLiJfryVzhe1acW7IxpvgP+b8xUxdF+NWg==",
+      "digest": "cCb7Bd7rSqyzbjBwJhiQHiHyP7r2jJEFSqgJN8t1vezRmo8h7ZIf8jtk0XLp+LOKpTyvu3DEnPi+QPFDSZDfew==",
       "signatureAlgo": "ed25519ph",
-      "signature": "0O/+FR4RqISr8yVClqVvU2FKN+2XAJAeC2KacFRAmx/fYg9CBnh4KUUKHBBiQNi+nJicTXoaW/1+LtCoR2jYAQ=="
+      "signature": "8tibdkf+rl+fWn//YxNvZzR3iW2h+6QSd66yJWEOJhzhi95XpJIxb+nNFaAfNNkR250ZL1upMpkYSlXCqTCaCg=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.9/Enthalpy-0.4.9-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.10/Enthalpy-0.4.10-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
       "size": 25868288,
       "digestAlgo": "sha512",
-      "digest": "+vjKt+TDbf1Qq96vluXXW5YW5fCcWcW9GrVEWAYBJSq7d4NPMtK1qg5Ig3EtYM4Vz9sISVgTdkVtbfHMbilFdw==",
+      "digest": "wIq86SLg+ZsbXVsYJ82o0mRJ5VJSA/LsVNYCPVjmFPuNS31V7goHnDUHVx1UyJkpim61tJecGUlMPQ36WHao+g==",
       "signatureAlgo": "ed25519ph",
-      "signature": "xwIfoq20t9RUs9u29O84cYKQlg/Xhemk/GbQOnLy0o6ydy81cWplPN/UoAQPFym5hpLcxddZIEaHYh0QafuXDA=="
+      "signature": "gMhwVzD3d+oSrtn9SLxNwcRej8/7ne6/8Wbtitn81wxpg25I8PGhOvrjRY0T5h7uze/CLz2+8TEElX6uMMinAw=="
     }
   ]
 }
