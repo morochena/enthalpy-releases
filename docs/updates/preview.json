@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.13",
+  "version": "0.4.14",
   "channel": "preview",
-  "name": "Enthalpy v0.4.13",
-  "notes": "# Enthalpy v0.4.13\n\n## Fixed\n\n- Linux x64 AppImage: the published file now actually bundles libEGL.so.1 (and\n  related GL/EGL libraries). Version 0.4.11 advertised this fix but the upload\n  artifact had zero libEGL bytes because the release packaging used\n  `wails3 generate appimage` and never ran the custom build.sh script. After\n  checksum + chmod +x, the AppImage should open a window.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon and Windows x64.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n",
-  "publishedAt": "2026-09-02T18:37:42Z",
+  "name": "Enthalpy v0.4.14",
+  "notes": "# Enthalpy v0.4.14\n\n## Improved\n\n- Agent Chat now shows responses as they arrive and gives clearer status for\n  active, completed, cancelled, and failed work.\n- Agent file proposals now have a review step. You can inspect the proposed\n  files and apply or reject the complete change.\n\n## Fixed\n\n- Completing tasks from the Tasks view now saves an open source note first.\n  This prevents false change conflicts and keeps the source checkbox and task\n  record consistent.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
+  "publishedAt": "2026-09-02T21:38:21Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.13/Enthalpy-0.4.13-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.14/Enthalpy-0.4.14-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 10301947,
+      "size": 10322914,
       "digestAlgo": "sha512",
-      "digest": "4Q06qWzc+mC55KvP1VMHx1U39qW3MquGXQp3ji51FckdxvKpLshIC2WlX0O1h8H6nAeheyXgGS3w0sXSU8p7Tw==",
+      "digest": "DF2bvKk0av4BWk6gd/KwStTEVYLnjRXXDI68V4DH+GM6BlBH7UF8JWz5b3GSo9OEfO9ufbE6jOeAWpbRP+Yx6Q==",
       "signatureAlgo": "ed25519ph",
-      "signature": "BVt4erBYpXTDePCI9oV50dXfkinBGhiS50sk1PRpGnd2Ku3J20bGJXzSkczFxUQlToP4VfOEeEOBHeBox2ZmDQ=="
+      "signature": "iVOmnSgKFPDe+UwN8QrHQPrR3wgS1r+0E65hVq7S/fDU07lJ/+yuQODvKfPJQ1+T8VCp1NJciKxOFpykQX9lCg=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.13/Enthalpy-0.4.13-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.14/Enthalpy-0.4.14-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 25871872,
+      "size": 25927680,
       "digestAlgo": "sha512",
-      "digest": "J2gQqtBldTFJIVCCWc+77yY6ZE1wSrf94BDiqdKKR3nnGwUxlHAdP6ESPEOpScQDOuSdbfkPeCYi0h/cxJxSaw==",
+      "digest": "fBjDI4FkZ69++GFwxB3H6wLWCBuSsFsoOSxXhAE3LO6tuMcIg/SD00CGFkO13YVzAsExQJERbJFkVSk8kPcrLA==",
       "signatureAlgo": "ed25519ph",
-      "signature": "u4S49Al1koMx+SBAKfAZD5JXuGUNQIdKArMx2XfIcgdHUpOMlwS/njHoyiKtuX2o1yv62vXOKmQwOOW0ai2FDw=="
+      "signature": "Iq/8xVBBmvzLAHVAzMGo9eKyKlmE6i/uX6cfjPJcKXSb0WAoFLS+ttydEHoAPj6fw29ET6aryxEpUwMdwmpSDw=="
     }
   ]
 }
