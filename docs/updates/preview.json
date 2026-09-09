@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.15",
+  "version": "0.4.16",
   "channel": "preview",
-  "name": "Enthalpy v0.4.15",
-  "notes": "# Enthalpy v0.4.15\n\n## Improved\n\n- Updated Dashboard, Projects, Areas, Tasks, Settings, and Automations with\n  clearer headings, larger text, consistent spacing, and controls that fit\n  narrow panes. The existing font is retained.\n- Long task titles now wrap. Due date and context controls stay aligned and\n  move below task titles when space is limited.\n- Settings has clearer navigation and section headings.\n- Automations groups schedule, scope, result, and change permissions in one\n  summary. Run history and results are easier to read.\n- Improved text and control sizes in navigation, note views, dialogs, and\n  Agent history.\n\n## Fixed\n\n- Project and Area daily-note excerpts no longer show internal task identity\n  markers. Task records and source notes keep their identities.\n- Opening Settings checks whether an API key exists without reading its\n  secret value. This prevents unnecessary macOS Keychain access requests.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
-  "publishedAt": "2026-09-08T16:52:25Z",
+  "name": "Enthalpy v0.4.16",
+  "notes": "# Enthalpy v0.4.16\n\n## Fixed\n\n- Task actions no longer show a false task-change warning after an automatic\n  note save, including a save that changes only spaces.\n- Task editing preserves typed spaces and the cursor position when typing\n  continues after a pause.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
+  "publishedAt": "2026-09-09T10:43:35Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.15/Enthalpy-0.4.15-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.16/Enthalpy-0.4.16-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 10323614,
+      "size": 10323662,
       "digestAlgo": "sha512",
-      "digest": "u2aEIetk6ykf7iv2Wo6q27WyFZ82ElEkz0oXZ7R4ULbxA7cv7jbIwTUQnX1jme7OVfcdFHT4DcR+NDkURg+sNA==",
+      "digest": "sXY7+arOGpT+pyVRK9XqS8WMkSqGbcMk8uNf6q0VLpZrsqPzp07/ypz70C9S3w1AZOphQbVYKIoxrL1vUmolww==",
       "signatureAlgo": "ed25519ph",
-      "signature": "MCXczWkVrk4pYNRze1uAOhBTI/lo1xDHbihFf2BERQv8vBnCTTwoWoSis/pvP4/fbkic5HXKcUjHvgVxf3qNAg=="
+      "signature": "7tOmxac+THHiaKC8iJvRWzWyJAD+AmgUbp7kJVs+z9YIBZOL//cEReuOguRNjZtPhqFZn76lF41UrGUlHklVCQ=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.15/Enthalpy-0.4.15-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.16/Enthalpy-0.4.16-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
       "size": 25939968,
       "digestAlgo": "sha512",
-      "digest": "WyOf+tXFrurQZHqerg8cXnyIsgQUxqY75Vbb0d08ICl2dmWRbsRQXUwjmLaXKUgXO8uX1JvNVAybdUBzgduTRg==",
+      "digest": "kgXRfC+XBr7nuUDUeL9S1kJYBVUHIJu/d1IQFhZUrgk2bT/4iFEFXI1i+2KxfxghTWjjC4p7cMKb8Eu66TrVFQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "I0hSCym4XM6xfntsKoIlgKqnRv7wIGQdaviWES23iKAKkLxziEpIJ0AVaxQZN5E6Mvcy+O+NVN6RLsjWyBqXCw=="
+      "signature": "m+9LkjoSLvfA5qrqVjKGaosg42z/uKAFkbUOwwIgrGd0TT0clw7QvKxE2DSyfi6Y0vPAhCa1zyytJcuyYHqLCA=="
     }
   ]
 }
