@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.16",
+  "version": "0.4.17",
   "channel": "preview",
-  "name": "Enthalpy v0.4.16",
-  "notes": "# Enthalpy v0.4.16\n\n## Fixed\n\n- Task actions no longer show a false task-change warning after an automatic\n  note save, including a save that changes only spaces.\n- Task editing preserves typed spaces and the cursor position when typing\n  continues after a pause.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
-  "publishedAt": "2026-09-09T10:43:35Z",
+  "name": "Enthalpy v0.4.17",
+  "notes": "# Enthalpy v0.4.17\n\n## Added\n\n- Automations can create a new dated note in a selected folder. Choose the\n  filename, title, note type, and Markdown format, including blank sections\n  for meeting notes. Existing files stay protected.\n\n## Fixed\n\n- Automation reviews, unfinished descriptions, and unsaved edits remain\n  available when you switch tabs and return.\n- Managed Automation result notes use the Automation name in their title.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
+  "publishedAt": "2026-09-09T12:17:43Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.16/Enthalpy-0.4.16-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.17/Enthalpy-0.4.17-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 10323662,
+      "size": 10329715,
       "digestAlgo": "sha512",
-      "digest": "sXY7+arOGpT+pyVRK9XqS8WMkSqGbcMk8uNf6q0VLpZrsqPzp07/ypz70C9S3w1AZOphQbVYKIoxrL1vUmolww==",
+      "digest": "UdB8cvWbfwDkv5Lzj/ejV/awkpCJCZe9Bzfp/LbzP9Dj6k9H70f0ofaciWMC/7jrtVV9tGY2CjDjsb883gX8+g==",
       "signatureAlgo": "ed25519ph",
-      "signature": "7tOmxac+THHiaKC8iJvRWzWyJAD+AmgUbp7kJVs+z9YIBZOL//cEReuOguRNjZtPhqFZn76lF41UrGUlHklVCQ=="
+      "signature": "ya4vsnBhqR+wKLEHFkSVNEOQpJwEAzljqaMAueiay4EhDcaMi0hL3f7Q9nfGiP2Yte9x/AtyjXBauwM0Cw80Dg=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.16/Enthalpy-0.4.16-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.17/Enthalpy-0.4.17-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 25939968,
+      "size": 25960960,
       "digestAlgo": "sha512",
-      "digest": "kgXRfC+XBr7nuUDUeL9S1kJYBVUHIJu/d1IQFhZUrgk2bT/4iFEFXI1i+2KxfxghTWjjC4p7cMKb8Eu66TrVFQ==",
+      "digest": "1AWjWUvI9VTirvd4Km+QR6SeU1A6Al9k4SdxdbW5eljI/3ZNAoUPIPnai0j9bb0wEZr9yPa3pk6NMbVKyDX6ug==",
       "signatureAlgo": "ed25519ph",
-      "signature": "m+9LkjoSLvfA5qrqVjKGaosg42z/uKAFkbUOwwIgrGd0TT0clw7QvKxE2DSyfi6Y0vPAhCa1zyytJcuyYHqLCA=="
+      "signature": "C7iji14Oyv0U2K9zwjb/dEPOhy5oR5A4UoVT4NYbeACLTzxyqw1T8IFZfdEPxvjFw+oqJsSuCF0GfM9up5qzCA=="
     }
   ]
 }
