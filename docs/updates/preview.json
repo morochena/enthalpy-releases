@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.18",
+  "version": "0.4.19",
   "channel": "preview",
-  "name": "Enthalpy v0.4.18",
-  "notes": "# Enthalpy v0.4.18\n\n## Changed\n\n- Area and Project scopes now include matching daily-note sections. General\n  content and sections for other Areas or Projects stay excluded from reads\n  and searches. Full workspace still includes complete daily notes.\n- Automation read-scope choices are Area, Project, and Full workspace.\n\n## Fixed\n\n- New Automation runs no longer show false interruption warnings after their\n  steps succeed. Existing run history can still contain the old warnings.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
-  "publishedAt": "2026-09-09T12:51:19Z",
+  "name": "Enthalpy v0.4.19",
+  "notes": "# Enthalpy v0.4.19\n\n## Added\n\n- Show a selected note, asset, or folder in Finder on macOS or File Explorer\n  on Windows from its context menu.\n\n## Changed\n\n- Area scope now includes attached Project files and their matching daily-note\n  sections, including paused, completed, and archived Projects. Unrelated\n  content stays excluded.\n- File deletion uses an in-app confirmation with the affected content and an\n  Undo action after deletion.\n\n## Fixed\n\n- Automation deletion and other confirmation actions use in-app dialogs that\n  work in the desktop application.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
+  "publishedAt": "2026-09-09T14:40:44Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.18/Enthalpy-0.4.18-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.19/Enthalpy-0.4.19-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 10333998,
+      "size": 10346512,
       "digestAlgo": "sha512",
-      "digest": "/6xydLX+93xDr9sBREe90VA+EkNBW0DfD3fIrEuKB9EGfYfOdTGhkWo1WvdKaddzFepqsTmLOBIagkAJAKJRig==",
+      "digest": "7VngQAub+LF4N4Y+o7RQdyOFsDBfSAWZkqqjQJX37AfZz3guiCVHDV9drijSZj8iVa8B7J7isDiouQAw+wuTRQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "Ib3JB3pYSYybTV5WvtlZH5K4SCsYufvlv37BhAnkdy4HR34KULJ0+oY02FpF7YLAG4szz4hWOviYEblBpqvtBQ=="
+      "signature": "AZDckEX9/hvHdK4sQtjZdOwDeQqjA0Qa4OOOME+fFoUiuHmkNvhjBfxw1S42F3OfXaPZ4qV8F2zRNZRLKHGCCA=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.18/Enthalpy-0.4.18-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.19/Enthalpy-0.4.19-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 25972224,
+      "size": 26005504,
       "digestAlgo": "sha512",
-      "digest": "74KFfjQoWz6BitZjBn5UrWiWpJLesQTNuKwpWQZW4D9ZUk34/LYC2smaBBpRvlMdLWL2C/FWUkmGR9HsMscYNQ==",
+      "digest": "zr5HUTi3hCXnGFUoZ7BSogvtILZl1ulynw5EncX3qSLht/6JvkWj57pAxgFX5Zu68wZ1tjvL7hUz4Sc2/V2dVg==",
       "signatureAlgo": "ed25519ph",
-      "signature": "lMmO9VoNVMB8KJ0uzXQZAZghZ+zKY+dfm40YhzkioNTz2xvV01dQV+n2riTMbxKRB73CAjIQmzRGitAETmEgAA=="
+      "signature": "58XFwWaXevu4MFf0Sot8bs84BtW5iLFzj1fgJH8k1I4p24/asQJYkwpHX7+PII+ct4ZFzP4FNk6WMO5Ia/9JCA=="
     }
   ]
 }
