@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.20",
+  "version": "0.4.21",
   "channel": "preview",
-  "name": "Enthalpy v0.4.20",
-  "notes": "# Enthalpy v0.4.20\n\n## Added\n\n- Automations can review all dates, a past number of days, or the current week.\n  You can also limit source content to Daily notes. Run details show the exact\n  source period.\n\n## Changed\n\n- Automations with a limited source period use recorded content changes to\n  select text from older notes. Empty periods produce a no-updates result.\n- Deleting a note closes its tab. Deleting a folder also closes the tabs for\n  notes in that folder.\n\n## Fixed\n\n- Repeated automatic saves of unchanged text now succeed without an error or\n  an extra history entry. Checks still protect newer file content.\n- Background changes refresh notes, tasks, search results, Projects, and Areas\n  while preserving open editor drafts.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
-  "publishedAt": "2026-09-10T23:20:43Z",
+  "name": "Enthalpy v0.4.21",
+  "notes": "# Enthalpy v0.4.21\n\n## Added\n\n- Use Workspaces to open a local copy, create a workspace, or download one from\n  Sync. The same window opens from File, Settings, the command palette, and the\n  workspace name beside the tabs.\n- The workspace list shows known local copies and their folders. Locate a moved\n  folder or remove an entry from the list without deleting its files.\n- Unlock Sync with the workspace passphrase after you sign in again. The local\n  copy, pending changes, device identity, and pause setting stay in place.\n\n## Changed\n\n- A synced workspace that already has a local copy opens that copy. A missing\n  local folder must be located before the connection can be used again.\n- Your workspace stays open while you choose another workspace. Creating or\n  downloading a workspace shows its new folder path before you continue.\n- Workspace name, folder name, and name shown in Sync have separate labels.\n- Sync lists refresh when the workspace window opens or regains focus. Local\n  workspaces remain available without a Sync account.\n\n## Fixed\n\n- Sign-out keeps recording local changes for later Sync. Sign-in shows the\n  passphrase action when a workspace key is required.\n- Resuming Sync shows Syncing until the next check completes.\n- Returning to a workspace checks its local-copy identity. A different folder\n  at the same path cannot take the place of the original copy.\n- An interrupted Sync download completes its saved recovery step before you\n  can select another workspace.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
+  "publishedAt": "2026-09-10T23:49:46Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.20/Enthalpy-0.4.20-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.21/Enthalpy-0.4.21-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 10372769,
+      "size": 10409367,
       "digestAlgo": "sha512",
-      "digest": "Cg3nAqzbtXzvXvJ7igSZdulhzBJiDpk0dnQ1wC/XWPG0oeKZ0Eh8XZGNm5Gs78sYTdgGnNkhC110W+s7+S3gZA==",
+      "digest": "1wVB0WYt+Q6tK55bN9FSYhOZ9SnEsrBtF36eelZDTDzmZFL4Izw0l9DFDs6vr4vnhn6ds1IRlvDS1Sp9HKvRGg==",
       "signatureAlgo": "ed25519ph",
-      "signature": "s9BYgsJXqZATt7j/sOZ64tYU884ItIKyl+VKfkFgIpxZlUJGsKUWi59CdK4Mw6sDeRpmhWl8WjEvm+ibMYCoCg=="
+      "signature": "K9ST7Eok0OeBYbOei44CFPcgvMdgRCgKKxcoyJEd2VWnlc+jhKvQc478VeySbcZmQobTGreXz1fDZvwjtld6BQ=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.20/Enthalpy-0.4.20-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.21/Enthalpy-0.4.21-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 26105856,
+      "size": 26248192,
       "digestAlgo": "sha512",
-      "digest": "DZ+K76WuqWegQfG7/VD8YpWY1E9Y7bRwP42SqucFOIOcVicZxNw/pn1b+J6xSHUE9pjwXM12Ywx1YFPu9rPLrw==",
+      "digest": "ZKtECFhx3CKN8yMiqrN3blZ7VHtfsJz5HGYu02VptfuviAbSkzuNMaAYSVy/HV+3vRAtqMa22TLtTwF1pKpMtQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "pd3TcheHGriAdOh+VnwiYJRUfdv3ZA6QUTBjpRMZfCoRaHliclonfpWfLmn9JR39CkXjs0j1Q9gc5hSP6Wf9Bw=="
+      "signature": "tYCW7WVadcSi2S/8kVa2i0VK3d6yGKiR3U7gEajxOthuC3HfxhXnvdZhGecJ5AJe0wWLYcraDSWeQ2tGRnj9AA=="
     }
   ]
 }
