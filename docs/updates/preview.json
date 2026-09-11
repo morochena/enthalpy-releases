@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.24",
+  "version": "0.4.25",
   "channel": "preview",
-  "name": "Enthalpy v0.4.24",
-  "notes": "# Enthalpy v0.4.24\n\n## Changes\n\n- Sync supports large workspaces with many small files. It checks file and\n  storage limits before upload and can retry expired unfinished uploads.\n- Detailed edit recovery stays on each device. Existing history is preserved\n  locally before its shared copy is removed. Agent and Automation review\n  records, and their Undo records, remain shared.\n- Open **Sync versions** from a note's file menu to find retained versions at\n  its current path. Preview downloads only the selected note. Restore makes\n  a new checked change and cannot overwrite a later edit.\n- Sync retries continue after sign-in renewal. Older clients receive an update\n  prompt before they access remote workspace files.\n\n## Update each device\n\nUpdate Enthalpy on each Sync device. The note recovery view supports notes up\nto 4 MiB and searches up to 1,000 recent Sync steps. Renamed paths and deleted\nfiles are outside this first recovery view. Shared versions retain the 90-day\nretention period and count against account storage.\n",
-  "publishedAt": "2026-09-11T18:44:40Z",
+  "name": "Enthalpy v0.4.25",
+  "notes": "# Enthalpy v0.4.25\n\n## Fixes\n\n- Windows can save large Sync security records in the system credential\n  store. This fixes a failure when you connect a remote workspace.\n- If the system credential store fails, the workspace list stays available.\n  Enthalpy shows the credential error and lets you try the connection again.\n\n## Test the Windows connection\n\nInstall this update on each Sync device. If a previous connection failed,\nrestart Enthalpy and connect the remote workspace again.\n",
+  "publishedAt": "2026-09-11T22:35:44Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.24/Enthalpy-0.4.24-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.25/Enthalpy-0.4.25-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 10462885,
+      "size": 10464774,
       "digestAlgo": "sha512",
-      "digest": "ypXWTEdXQ2LGzKRXIAXo+4q9RANmdqoVt0hKLbOXIdSnuvmcjCOp2xX/RvbzMaC50iqkGfrKlmeb1JzD04TXhQ==",
+      "digest": "yDTP0jQG+z4/tQnK5MdgAaTd2v9rPPimygjuvIk/cvSVGKMnlNnb+4M0b5xckgDMJC5Y8Q5Xa/h0PVG/7BRwZQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "5GbByMBg5cYCgCRcqx+TyFLtRbhWZng6JWLnrLSAWLmsI4AMoY5rkA1WHTxGEAUTXPq7c8p2BrT8NfYU+ALuCA=="
+      "signature": "/4FUU8lRqzDzGPj9HewNgcU/2k1jnZJ7pgpbCNtrWWiQMBakT3YCoStbQRKcH95efjqfKDs/4s1rEtRZxAD9AQ=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.24/Enthalpy-0.4.24-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.25/Enthalpy-0.4.25-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 26407424,
+      "size": 26435584,
       "digestAlgo": "sha512",
-      "digest": "yhm1JmBaSLXTnjqzqDZoYpMQ1fbS4NM/JqGG8cT0BR5bMJ8DS7FXtKGzVA6bztq23AYLT5B2/J2Xli1dXxK05g==",
+      "digest": "Q31SrxK4UD1fDMQVieguXpchQ51I7Cj2bAz8SLYRCQxdUEMb4XFsMjjOzoHeZst5+KQAedZdaszj0Mf/dFqrvA==",
       "signatureAlgo": "ed25519ph",
-      "signature": "sAya2Vi3mDvE5o6Zw8jl6TzS+y7pGyEU+UzRrXsZ0pHiDsHDKOQbRx6CfM7GzJn0DJzrU7IIUPV7GjV6cE0vCA=="
+      "signature": "QcTVn+7F2Mhw2DryDIRlG7cXk1XXZCjUbkPbLS8CHm42lO23KHtH3XojQQWND7voxvdPrjNNuBQTdhhk2vNCCw=="
     }
   ]
 }
