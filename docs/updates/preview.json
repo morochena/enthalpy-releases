@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.21",
+  "version": "0.4.22",
   "channel": "preview",
-  "name": "Enthalpy v0.4.21",
-  "notes": "# Enthalpy v0.4.21\n\n## Added\n\n- Use Workspaces to open a local copy, create a workspace, or download one from\n  Sync. The same window opens from File, Settings, the command palette, and the\n  workspace name beside the tabs.\n- The workspace list shows known local copies and their folders. Locate a moved\n  folder or remove an entry from the list without deleting its files.\n- Unlock Sync with the workspace passphrase after you sign in again. The local\n  copy, pending changes, device identity, and pause setting stay in place.\n\n## Changed\n\n- A synced workspace that already has a local copy opens that copy. A missing\n  local folder must be located before the connection can be used again.\n- Your workspace stays open while you choose another workspace. Creating or\n  downloading a workspace shows its new folder path before you continue.\n- Workspace name, folder name, and name shown in Sync have separate labels.\n- Sync lists refresh when the workspace window opens or regains focus. Local\n  workspaces remain available without a Sync account.\n\n## Fixed\n\n- Sign-out keeps recording local changes for later Sync. Sign-in shows the\n  passphrase action when a workspace key is required.\n- Resuming Sync shows Syncing until the next check completes.\n- Returning to a workspace checks its local-copy identity. A different folder\n  at the same path cannot take the place of the original copy.\n- An interrupted Sync download completes its saved recovery step before you\n  can select another workspace.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
-  "publishedAt": "2026-09-10T23:49:46Z",
+  "name": "Enthalpy v0.4.22",
+  "notes": "# Enthalpy v0.4.22\n\n## Fixed\n\n- Sync checks account access before it prepares a workspace or creates a remote\n  copy. If sign-in is required, the setup form keeps your entries.\n- Sync renews an expired access token during a long operation. Requests that\n  fail at the same time share one session renewal.\n- A lost account session shows a sign-in action. A network failure shows a retry\n  action and does not report that the session expired.\n- Signing in again resumes an accepted Sync setup with the same remote\n  workspace. It does not create a second copy.\n- Sync removes unusable saved session credentials so an app restart cannot\n  retry an old session token.\n- A connection failure during the Sync version check shows the account or\n  network error instead of an incorrect update notice.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
+  "publishedAt": "2026-09-11T14:52:50Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.21/Enthalpy-0.4.21-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.22/Enthalpy-0.4.22-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 10409367,
+      "size": 10420788,
       "digestAlgo": "sha512",
-      "digest": "1wVB0WYt+Q6tK55bN9FSYhOZ9SnEsrBtF36eelZDTDzmZFL4Izw0l9DFDs6vr4vnhn6ds1IRlvDS1Sp9HKvRGg==",
+      "digest": "appcuItgs1NhtwAP1IVBLUDiCWOIGmD1l+g1W9heiZ1AoVo4/3uphtDIZCkiXoETJ1W58IWSygCQY/1FoYe6GA==",
       "signatureAlgo": "ed25519ph",
-      "signature": "K9ST7Eok0OeBYbOei44CFPcgvMdgRCgKKxcoyJEd2VWnlc+jhKvQc478VeySbcZmQobTGreXz1fDZvwjtld6BQ=="
+      "signature": "1tV1zfKl3HhR5ioCYO15qkD20xFEBZjc+dr5ihTisxyBI/PR26Pfa5TdQXY9bq05vrffZpY8iXQtjSy0fMPrCA=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.21/Enthalpy-0.4.21-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.22/Enthalpy-0.4.22-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 26248192,
+      "size": 26269184,
       "digestAlgo": "sha512",
-      "digest": "ZKtECFhx3CKN8yMiqrN3blZ7VHtfsJz5HGYu02VptfuviAbSkzuNMaAYSVy/HV+3vRAtqMa22TLtTwF1pKpMtQ==",
+      "digest": "uvPttpOoP4ng+TZ48f/Ep+TRzt2A9TNMiVR0oi+Ae2V/HyUPaQjyyVJh81Fl6EylqhSWtTZi9Q6QYiUwq9AlaQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "tYCW7WVadcSi2S/8kVa2i0VK3d6yGKiR3U7gEajxOthuC3HfxhXnvdZhGecJ5AJe0wWLYcraDSWeQ2tGRnj9AA=="
+      "signature": "saabkKtB8Nw43rjva39ZLdkvcjQh6b5kwjMnSjSUq8BpayguElIDCxQVWf2PjmvGLhh1ap1OtMk9ZvBdiBOhBg=="
     }
   ]
 }
