@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.22",
+  "version": "0.4.23",
   "channel": "preview",
-  "name": "Enthalpy v0.4.22",
-  "notes": "# Enthalpy v0.4.22\n\n## Fixed\n\n- Sync checks account access before it prepares a workspace or creates a remote\n  copy. If sign-in is required, the setup form keeps your entries.\n- Sync renews an expired access token during a long operation. Requests that\n  fail at the same time share one session renewal.\n- A lost account session shows a sign-in action. A network failure shows a retry\n  action and does not report that the session expired.\n- Signing in again resumes an accepted Sync setup with the same remote\n  workspace. It does not create a second copy.\n- Sync removes unusable saved session credentials so an app restart cannot\n  retry an old session token.\n- A connection failure during the Sync version check shows the account or\n  network error instead of an incorrect update notice.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
-  "publishedAt": "2026-09-11T14:52:50Z",
+  "name": "Enthalpy v0.4.23",
+  "notes": "# Enthalpy v0.4.23\n\n## Fixed\n\n- Sync shows specific messages for upload limits, connection failures,\n  timeouts, and service failures.\n- Sync support reports keep the failed setup step, progress counts, and service\n  error codes. They exclude personal content and credentials.\n- Copy support report now uses the native clipboard and is available when\n  signed out. If copying fails, the report appears as text for manual copying.\n\n## Preview limits\n\n- Hosted Sync remains available only to the approved owner account on macOS\n  Apple Silicon. Windows Sync enrollment is deferred until its installed-build\n  acceptance passes.\n- Use only disposable test data until the independent protocol and cryptographic\n  review is complete.\n- Account creation stays invite-only with a hard one-account limit.\n- Linux packages are deferred.\n",
+  "publishedAt": "2026-09-11T15:43:47Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.22/Enthalpy-0.4.22-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.23/Enthalpy-0.4.23-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 10420788,
+      "size": 10422940,
       "digestAlgo": "sha512",
-      "digest": "appcuItgs1NhtwAP1IVBLUDiCWOIGmD1l+g1W9heiZ1AoVo4/3uphtDIZCkiXoETJ1W58IWSygCQY/1FoYe6GA==",
+      "digest": "x0WORQzoIy62Auecxm/WnI91CL4t7wsoqK2HlzCiBDgbHv7Qbs6DG5j4pLaN0jqC1KZ6HGR07JiF86tuNmN94g==",
       "signatureAlgo": "ed25519ph",
-      "signature": "1tV1zfKl3HhR5ioCYO15qkD20xFEBZjc+dr5ihTisxyBI/PR26Pfa5TdQXY9bq05vrffZpY8iXQtjSy0fMPrCA=="
+      "signature": "QDM2ELzxhFUmdXOP9EhToRokuLbfbPd97S1Yiskuom+8z8mM+msOIwgdNdGI7YFUS/mROIiRumn9OX56dz+UCQ=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.22/Enthalpy-0.4.22-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.23/Enthalpy-0.4.23-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 26269184,
+      "size": 26280448,
       "digestAlgo": "sha512",
-      "digest": "uvPttpOoP4ng+TZ48f/Ep+TRzt2A9TNMiVR0oi+Ae2V/HyUPaQjyyVJh81Fl6EylqhSWtTZi9Q6QYiUwq9AlaQ==",
+      "digest": "jPC8orMHP6Og10O0HewMEA/fA788fosNA3SrqP5SVsEoVz3kYBEdP4ZrE/k4YkN7jVoA7M0I/sLUUEnXCCGw0w==",
       "signatureAlgo": "ed25519ph",
-      "signature": "saabkKtB8Nw43rjva39ZLdkvcjQh6b5kwjMnSjSUq8BpayguElIDCxQVWf2PjmvGLhh1ap1OtMk9ZvBdiBOhBg=="
+      "signature": "p3UulF74z0YuEH3qiRS2pEUgNt5aQXOlHBKa0rzDIxtpsegbOWVO9bZC5Vi3LyNI0tKWWSWQzfCCqYqJqS1LCg=="
     }
   ]
 }
