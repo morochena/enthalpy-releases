@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.26",
+  "version": "0.4.27",
   "channel": "preview",
-  "name": "Enthalpy v0.4.26",
-  "notes": "# Enthalpy v0.4.26\n\n## Changes\n\n- Open from Sync opens the local workspace before all notes and attachments\n  finish downloading. Files then download in the background.\n- The Notes pane shows files that are still downloading. Select a note to\n  give its download priority. You can create notes and edit available note\n  text while other files download.\n- Sync shows download progress and supports pause, retry, and recovery after\n  an app restart. It also detects file changes made while the app was closed.\n- Connection recovery keeps the record of files already saved locally.\n  Incomplete desktop responses show a useful error instead of a JSON error.\n- Windows closes the temporary workspace folder handle before it moves the\n  folder to its final location. This prevents a failed connection after download.\n- A connection can retry after a credential-storage error without a false\n  \"already reserved\" error for the new folder.\n- Sync can receive several remote changes between checks without an incorrect\n  integrity stop. Background file checks wait for a verified download to finish\n  saving its Sync state.\n\n## Test this preview\n\nThis preview uses a separate test service and test account. Previous test\naccounts and remote workspaces are not available on this service. Use the\nprivate test login supplied with this preview. Versions before 0.4.26 cannot\nuse the new service.\n\nInstall 0.4.26 on both Windows and macOS. Sign in with the test account on both\ncomputers. Create a new test workspace on the first computer and enable Sync.\nOn the second computer, select Open from Sync\nand choose a new local folder outside OneDrive.\nCheck that the workspace opens while files download, that an available note\ncan be edited, and that Sync continues after an app restart.\n\n## Known limits\n\nThis preview is the first part of the Sync redesign. It does not yet provide\nfull Sync feature parity. Concurrent edits to the same file still need more\nwork. Task changes can wait for required files to download. If an external\ntool removes a folder before its files download, restore that folder before\nyou retry Sync. The original OneDrive failure still needs a Windows test.\n",
-  "publishedAt": "2026-09-15T01:04:01Z",
+  "name": "Enthalpy v0.4.27",
+  "notes": "# Enthalpy v0.4.27\n\n## Changes\n\n- Sign in before you use Enthalpy. Then select Open or Create. Every new\n  workspace uses Sync. Downloaded files remain available offline, and saved\n  changes sync when the connection returns.\n- Account settings contains sign-in, sign-out, remote workspaces, devices,\n  and account security. Workspace settings contains that workspace's Sync\n  state, pause, unlock, and conflicts.\n- The workspace screen has aligned Open and Create tabs and shorter text.\n  Folder controls are under Folder on this computer.\n- Creating or opening a workspace waits for a short concurrent update to\n  the workspace list. It no longer fails immediately when that list is busy.\n- After sign-out, you can sign in with a different Sync account. Enthalpy\n  restores the selected account after an app restart.\n- An expired login shows \"Sign-in required\". A completed sign-out shows\n  \"Signed out\".\n- Sign-out keeps local workspace files and security records. If Enthalpy\n  cannot remove a saved login or workspace key, it lets you retry sign-out.\n\n## Test this preview\n\nInstall this update on Windows and macOS. Sign in, create a workspace, and\ncheck that Sync becomes Current. Open an existing remote workspace. Disconnect\nthe network, edit a downloaded note, and reconnect. Check that the change\nreaches another device. Use Account settings to sign out or change accounts.\n\n## Known limits\n\nThis preview uses the same Sync service as 0.4.26. The older worker is retired.\nIts earlier accounts and remote workspaces are not available on the retained\nservice. The original OneDrive failure still needs further testing.\n",
+  "publishedAt": "2026-09-15T15:23:48Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.26/Enthalpy-0.4.26-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.27/Enthalpy-0.4.27-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 11171518,
+      "size": 11174873,
       "digestAlgo": "sha512",
-      "digest": "tfBFPVxRJ3uOY8IJQbTUYUuHgJysImrn/HlTL2gBU6Dq02V3Zt95Cx3u/fDoyViEPZaEo9JGAcuLuwU72ISDGg==",
+      "digest": "YwJ+Btx//nFH5j5ZCkWAFJd7Q2CeTAVCVSDigxxoSU0KNJu/8icI5SnKeBd2gtTdGIrwkh1IE5VRt6jI+Dq8hQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "7SK4DeQxn1IE/vDHJhJGAmjarBoyWsRseyPn/XrqwbIVJ0IKFT7Sggem9y5wOfdOFZIywOlIgKq/uTPckGcYCg=="
+      "signature": "dtnFuEuGDuzvWVgJcrBsPVUxVZu/6z5faI5boSYUWjzlDtQPA9BzBt4h6FIepdkOPLVsmd28l65tgzpOdUlsBg=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.26/Enthalpy-0.4.26-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.27/Enthalpy-0.4.27-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 28656640,
+      "size": 28667904,
       "digestAlgo": "sha512",
-      "digest": "PGl96uUSsl3nTrHG1tAGZUhExPtfdttYVpGCp5L6DQzKK5DuFeNpBqmxg7XWk+Es7Wc8wuz4f7sSrivA5vo/ow==",
+      "digest": "CJpnNl7xaM++OWeET7TrOYwB44Bng+lTs+qLxAEYXsweS98FCk1LGkMmmFnKlWSKjT5CQzbdXoCsyha0YOJ+Sw==",
       "signatureAlgo": "ed25519ph",
-      "signature": "9pMlfJrMc7/wSc7p1Nww0LC+rLbm+EITl0ObDMqN0V+VRol2KG/r4nGLTYmLXVE7QllPxrxEOJciQb5rRMV8Cg=="
+      "signature": "RYO0mhoSUt/hAjzRsgqF3x6CZgBVQquIMe5FtO6NljUYG1WforbT3O4rpa42vdmyZf1RZl4unpIEfL7HrbO/Bw=="
     }
   ]
 }
