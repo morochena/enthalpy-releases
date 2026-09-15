@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.27",
+  "version": "0.4.28",
   "channel": "preview",
-  "name": "Enthalpy v0.4.27",
-  "notes": "# Enthalpy v0.4.27\n\n## Changes\n\n- Sign in before you use Enthalpy. Then select Open or Create. Every new\n  workspace uses Sync. Downloaded files remain available offline, and saved\n  changes sync when the connection returns.\n- Account settings contains sign-in, sign-out, remote workspaces, devices,\n  and account security. Workspace settings contains that workspace's Sync\n  state, pause, unlock, and conflicts.\n- The workspace screen has aligned Open and Create tabs and shorter text.\n  Folder controls are under Folder on this computer.\n- Creating or opening a workspace waits for a short concurrent update to\n  the workspace list. It no longer fails immediately when that list is busy.\n- After sign-out, you can sign in with a different Sync account. Enthalpy\n  restores the selected account after an app restart.\n- An expired login shows \"Sign-in required\". A completed sign-out shows\n  \"Signed out\".\n- Sign-out keeps local workspace files and security records. If Enthalpy\n  cannot remove a saved login or workspace key, it lets you retry sign-out.\n\n## Test this preview\n\nInstall this update on Windows and macOS. Sign in, create a workspace, and\ncheck that Sync becomes Current. Open an existing remote workspace. Disconnect\nthe network, edit a downloaded note, and reconnect. Check that the change\nreaches another device. Use Account settings to sign out or change accounts.\n\n## Known limits\n\nThis preview uses the same Sync service as 0.4.26. The older worker is retired.\nIts earlier accounts and remote workspaces are not available on the retained\nservice. The original OneDrive failure still needs further testing.\n",
-  "publishedAt": "2026-09-15T15:23:48Z",
+  "name": "Enthalpy v0.4.28",
+  "notes": "# Enthalpy v0.4.28\n\n## Changes\n\n- Sign-in, Workspaces, Account settings, and Workspace settings use separate\n  screens. Your account email makes the active account clear.\n- Sign-out returns to Sign in and closes workspace access. An expired session\n  requires sign-in again. Downloaded files remain available offline while the\n  session is valid.\n- Unsaved edits are kept if a final save fails when the session expires. Sign\n  in to the same account to resolve the save problem.\n- Open and Create use one workspace list. Workspace names stay consistent\n  across screens. Folder paths appear in details, and Sync shows the last\n  successful update time.\n- Workspace creation and download keep non-secret form entries when you visit\n  Account settings. Passwords and passphrases are cleared.\n- Removing a device shows the required security update and its result. Removed\n  access no longer shows an unusable Unlock Sync action.\n- Moving a workspace to Trash keeps its local files and connection record.\n  Restore can open the same local copy without another download.\n- Password reset and account recovery report when email delivery is\n  unavailable. They no longer tell you to wait for email that cannot be sent.\n\n## Test this preview\n\nSign in and check the account email. Create or open a workspace. Open its\nsettings, then return to the workspace list. Sign out and check that only\nSign in remains. Sign in again to open the downloaded files.\n\n## Known limits\n\nRecovery email is not available. After a workspace is restored from Trash,\nthis preview cannot restore its devices' Sync access. Existing local files\nremain available after sign-in. The original OneDrive failure still needs\nfurther testing.\n",
+  "publishedAt": "2026-09-15T19:55:42Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.27/Enthalpy-0.4.27-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.28/Enthalpy-0.4.28-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 11174873,
+      "size": 11192974,
       "digestAlgo": "sha512",
-      "digest": "YwJ+Btx//nFH5j5ZCkWAFJd7Q2CeTAVCVSDigxxoSU0KNJu/8icI5SnKeBd2gtTdGIrwkh1IE5VRt6jI+Dq8hQ==",
+      "digest": "JBrIkDWm1MP8yd3T8tInmOL3CuEW0Ph/Bq7fmp82xFWH+scEE/e1IQeoxStQUuZ3enzu31AhYXQpfdjNrOjDCg==",
       "signatureAlgo": "ed25519ph",
-      "signature": "dtnFuEuGDuzvWVgJcrBsPVUxVZu/6z5faI5boSYUWjzlDtQPA9BzBt4h6FIepdkOPLVsmd28l65tgzpOdUlsBg=="
+      "signature": "r2YI0tj+6cSs8Ow73NbcpVZDlBh0/Ah1dYmSQ2QnVHgl2h6NH9pYSiOHbAFbH79VB4ngAkrje73tp6BveE+TAw=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.27/Enthalpy-0.4.27-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.28/Enthalpy-0.4.28-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 28667904,
+      "size": 28742144,
       "digestAlgo": "sha512",
-      "digest": "CJpnNl7xaM++OWeET7TrOYwB44Bng+lTs+qLxAEYXsweS98FCk1LGkMmmFnKlWSKjT5CQzbdXoCsyha0YOJ+Sw==",
+      "digest": "U8dzvD4chD17S4BEvFBqtz/fZCwNMbJ7PWqwlU3e0pSG5nLVnz5d8lOVkD+SgCj1rX3gzYnRvtR/xNDBcAEMlg==",
       "signatureAlgo": "ed25519ph",
-      "signature": "RYO0mhoSUt/hAjzRsgqF3x6CZgBVQquIMe5FtO6NljUYG1WforbT3O4rpa42vdmyZf1RZl4unpIEfL7HrbO/Bw=="
+      "signature": "o27jenkXvLAxB6fjgOjCmE+Ag3eA1nNaanzCmy0DIBaes1DQdFxYRlEgb8BNZmBIC424GJA6HVWx+7fQV4ozBQ=="
     }
   ]
 }
