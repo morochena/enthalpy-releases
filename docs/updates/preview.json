@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.29",
+  "version": "0.4.30",
   "channel": "preview",
-  "name": "Enthalpy v0.4.29",
-  "notes": "# Enthalpy v0.4.29\n\n## Changes\n\n- Sign-in can replace an expired account when macOS Keychain takes longer to\n  respond. Saved local files remain on the computer.\n- An interrupted sign-out keeps workspace access closed. Sign-in completes\n  the remaining credential removal, including after an app restart.\n- A rejected session opens Sign in again at once. It no longer appears as an\n  empty workspace list until the next session check.\n- A failed workspace-list request no longer reports a failed login after the\n  account credentials have been accepted and saved.\n- Credential storage errors give a more specific cause for the failure.\n\n## Test this preview\n\nSign in and open a workspace. Sign out, then sign in again. Check that the\ncorrect account and workspace list appear and that your saved notes remain.\n\n## Known limits\n\nRecovery email is not available. After a workspace is restored from Trash,\nthis preview cannot restore its devices' Sync access. Existing local files\nremain available after sign-in. The original OneDrive failure still needs\nfurther testing.\n",
-  "publishedAt": "2026-09-15T21:09:10Z",
+  "name": "Enthalpy v0.4.30",
+  "notes": "# Enthalpy v0.4.30\n\n## Changes\n\n- On macOS, sign-out and sign-in can remove saved account credentials from an\n  earlier app build. This fixes a credential-store error after an update.\n- Sign-in shows the remaining wait after too many failed attempts. The Sign in\n  button becomes available when the wait ends. It does not send your password\n  again automatically.\n- You can correct your password while the countdown runs.\n\n## Test this preview\n\nSign out, then sign in again. Check that the correct account and workspace\nlist appear. If a sign-in wait appears, check that the countdown ends and the\nSign in button becomes available.\n\n## Known limits\n\nRecovery email is not available. After a workspace is restored from Trash,\nthis preview cannot restore its devices' Sync access. Existing local files\nremain available after sign-in. The original OneDrive failure still needs\nfurther testing.\n",
+  "publishedAt": "2026-09-16T00:10:48Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.29/Enthalpy-0.4.29-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.30/Enthalpy-0.4.30-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 11198549,
+      "size": 11202004,
       "digestAlgo": "sha512",
-      "digest": "8rnBGkwkUfLoTe73MrviedwdQYLFHG02Jtmu+WHlyGKpjKJB16pVDJhSkrykbU/mrKIutVJ4oKnwLAwWlCdoXQ==",
+      "digest": "xpG7cIHrzl2wDv9uVI7rdFXSfStkdyrXoi0qSzC5BwXAczF4zpFBtjKhal8N6lY9TMM07Wc75EDYZASEHTeM7A==",
       "signatureAlgo": "ed25519ph",
-      "signature": "lRrKpdVNxHU40SZB8WNAv8cjcovwREIxlOyvHUuWicv01EZ9ch+3RTU7Y0E3In+2khbiL4NHsdV1ZmiVGqIEDA=="
+      "signature": "7w+MeBPIZ3RBauMBUeKC4+dvTPfdQ57Ek6XYzrcq9z1fR3ZjpO2ccOUMruPbn7lsBILud3ljuxxokkFxLxq9CA=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.29/Enthalpy-0.4.29-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.30/Enthalpy-0.4.30-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 28751360,
+      "size": 28753920,
       "digestAlgo": "sha512",
-      "digest": "ZIb2DOinowlOxnB/cJjRMtGHAVAP6eIhnbhqgYrX/gG+WSbUlUgIro83sl0bb4gi+Me/VlR7f8t0a3uI7HcTBA==",
+      "digest": "QovgOMKw/oYFJCbW+2o2QHhhBk0pU32W6lJG2SfqjCSA7hn77uECWNI5iwvYMAzJLwBlJ9ar8Q5vRbOf+4hoAw==",
       "signatureAlgo": "ed25519ph",
-      "signature": "mDlt8gGIpezMX34vW5GvvkHZzSVQOjPNR5ncEtAzNDd3ZC5Oo10871Z4uYRw7U7G8pGaDNCtQisf3pN3ir2EAw=="
+      "signature": "opoTy0ZaLNjm93olHk5XNxbtl3UJfxhLj9azcbLQnQvuRJ1cVjt4ha5i2AUlf8ZDRZckiaMBo0pAkuv1KAn9Bg=="
     }
   ]
 }
