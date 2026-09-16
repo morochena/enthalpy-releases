@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.30",
+  "version": "0.4.31",
   "channel": "preview",
-  "name": "Enthalpy v0.4.30",
-  "notes": "# Enthalpy v0.4.30\n\n## Changes\n\n- On macOS, sign-out and sign-in can remove saved account credentials from an\n  earlier app build. This fixes a credential-store error after an update.\n- Sign-in shows the remaining wait after too many failed attempts. The Sign in\n  button becomes available when the wait ends. It does not send your password\n  again automatically.\n- You can correct your password while the countdown runs.\n\n## Test this preview\n\nSign out, then sign in again. Check that the correct account and workspace\nlist appear. If a sign-in wait appears, check that the countdown ends and the\nSign in button becomes available.\n\n## Known limits\n\nRecovery email is not available. After a workspace is restored from Trash,\nthis preview cannot restore its devices' Sync access. Existing local files\nremain available after sign-in. The original OneDrive failure still needs\nfurther testing.\n",
-  "publishedAt": "2026-09-16T00:10:48Z",
+  "name": "Enthalpy v0.4.31",
+  "notes": "# Enthalpy v0.4.31\n\n## Changes\n\n- Workspace name and passphrase fields use the full available width. The\n  download form also has a Show passphrase button.\n- An unfinished workspace download shows Continue opening workspace after\n  sign-in or restart. It no longer offers another download or a cancel action\n  that cannot complete.\n- Recovery uses the saved download folder when a failed folder move leaves an\n  empty destination. Existing files at the destination remain protected.\n- A rejected workspace passphrase returns to the workspace list for a new\n  attempt. It does not claim that a download is ready to resume.\n- Workspace loading errors no longer claim that the desktop service is\n  unreachable when the workspace has already opened.\n\n## Test this preview\n\nOpen a workspace from your account. Check that the passphrase field displays\nall typed characters as dots. Use Show passphrase to check the entry.\n\nIf a previous download did not finish, open Enthalpy again. Let recovery\ncomplete, or select Continue opening workspace if that action appears.\n\n## Known limits\n\nRecovery email is not available. After a workspace is restored from Trash,\nthis preview cannot restore its devices' Sync access. Existing local files\nremain available after sign-in. The original OneDrive failure still needs\nfurther testing.\n",
+  "publishedAt": "2026-09-16T02:35:27Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.30/Enthalpy-0.4.30-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.31/Enthalpy-0.4.31-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 11202004,
+      "size": 11203144,
       "digestAlgo": "sha512",
-      "digest": "xpG7cIHrzl2wDv9uVI7rdFXSfStkdyrXoi0qSzC5BwXAczF4zpFBtjKhal8N6lY9TMM07Wc75EDYZASEHTeM7A==",
+      "digest": "RmOUiSk/evfJrRyYeIfvpwAmRRoQu0hZ4Fbj6zuXTwUjxHp9CWr/amSH5dc+e1tH7yHi6xIKHBjfnDteFiSzfw==",
       "signatureAlgo": "ed25519ph",
-      "signature": "7w+MeBPIZ3RBauMBUeKC4+dvTPfdQ57Ek6XYzrcq9z1fR3ZjpO2ccOUMruPbn7lsBILud3ljuxxokkFxLxq9CA=="
+      "signature": "G+2t4H+RZajBP5nlhVkhF7sAPpsRbi4Q3QK3bMP2uDiJqnMi+QEm1h5KRX2dXIOsGMLf/yUEzFhhZDFdKBxdAA=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.30/Enthalpy-0.4.30-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.31/Enthalpy-0.4.31-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 28753920,
+      "size": 28756480,
       "digestAlgo": "sha512",
-      "digest": "QovgOMKw/oYFJCbW+2o2QHhhBk0pU32W6lJG2SfqjCSA7hn77uECWNI5iwvYMAzJLwBlJ9ar8Q5vRbOf+4hoAw==",
+      "digest": "2GYjOb34prWcXKsQF+sc5Ffa/WSSP61HGogMKvl4/Yc5fzPxga3xvLxnC3fzIyVBZ4DHr/13o0SSQoeTJHqtoA==",
       "signatureAlgo": "ed25519ph",
-      "signature": "opoTy0ZaLNjm93olHk5XNxbtl3UJfxhLj9azcbLQnQvuRJ1cVjt4ha5i2AUlf8ZDRZckiaMBo0pAkuv1KAn9Bg=="
+      "signature": "4UWm5g0myTWuQb16Z+LlVen9OAwThulPr2YHPG7XSzXqp9mseJXET+I8FlKT7Z2uptK4GsO922LDO3AJPDNsDw=="
     }
   ]
 }
