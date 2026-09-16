@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.31",
+  "version": "0.4.32",
   "channel": "preview",
-  "name": "Enthalpy v0.4.31",
-  "notes": "# Enthalpy v0.4.31\n\n## Changes\n\n- Workspace name and passphrase fields use the full available width. The\n  download form also has a Show passphrase button.\n- An unfinished workspace download shows Continue opening workspace after\n  sign-in or restart. It no longer offers another download or a cancel action\n  that cannot complete.\n- Recovery uses the saved download folder when a failed folder move leaves an\n  empty destination. Existing files at the destination remain protected.\n- A rejected workspace passphrase returns to the workspace list for a new\n  attempt. It does not claim that a download is ready to resume.\n- Workspace loading errors no longer claim that the desktop service is\n  unreachable when the workspace has already opened.\n\n## Test this preview\n\nOpen a workspace from your account. Check that the passphrase field displays\nall typed characters as dots. Use Show passphrase to check the entry.\n\nIf a previous download did not finish, open Enthalpy again. Let recovery\ncomplete, or select Continue opening workspace if that action appears.\n\n## Known limits\n\nRecovery email is not available. After a workspace is restored from Trash,\nthis preview cannot restore its devices' Sync access. Existing local files\nremain available after sign-in. The original OneDrive failure still needs\nfurther testing.\n",
-  "publishedAt": "2026-09-16T02:35:27Z",
+  "name": "Enthalpy v0.4.32",
+  "notes": "# Enthalpy v0.4.32\n\n## Changes\n\n- Sign out uses an application dialog with working Cancel and Sign out\n  buttons on Windows.\n- Account deletion, workspace deletion, and conflict decisions use the same\n  confirmation controls. A second click cannot start another action while\n  confirmation is open.\n- Account settings shows the installed version before a workspace opens.\n- Copy error report supplies the app version and recent desktop error codes.\n  Reports exclude passwords, keys, workspace content, and raw error text.\n- An action failure no longer always claims that the desktop service is\n  unreachable.\n\n## Test this preview\n\nOpen Account settings and select Sign out. Check Cancel first, then select\nSign out again and confirm. Enthalpy must return to the sign-in page.\n\nIf a desktop action fails, select Copy error report in Account settings before\nyou close the app.\n\n## Known limits\n\nRecovery email is not available. After a workspace is restored from Trash,\nthis preview cannot restore its devices' Sync access. Existing local files\nremain available after sign-in.\n\nA Windows download failure stopped after a local app-state reset. Its exact\ncause is not confirmed. This release does not include a confirmed fix for\nthat failure.\n",
+  "publishedAt": "2026-09-16T17:22:15Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.31/Enthalpy-0.4.31-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.32/Enthalpy-0.4.32-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 11203144,
+      "size": 11203903,
       "digestAlgo": "sha512",
-      "digest": "RmOUiSk/evfJrRyYeIfvpwAmRRoQu0hZ4Fbj6zuXTwUjxHp9CWr/amSH5dc+e1tH7yHi6xIKHBjfnDteFiSzfw==",
+      "digest": "8qxQKhG0w0GLzaXewTvOIPEtJdC0GpR8CTN+X8n+M7dmWhCkiod67+AQh4aOYosiGqsi3QT/09bMRXnoBEEqUQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "G+2t4H+RZajBP5nlhVkhF7sAPpsRbi4Q3QK3bMP2uDiJqnMi+QEm1h5KRX2dXIOsGMLf/yUEzFhhZDFdKBxdAA=="
+      "signature": "5V+35kn4mxO/XPIVY4lklp6tfcamPl8B9i8Jjws6OCC9efMUKgXF3+HtUwFlZxXqh4jA9dqvVTQnGgxsxa5sAw=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.31/Enthalpy-0.4.31-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.32/Enthalpy-0.4.32-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 28756480,
+      "size": 28759040,
       "digestAlgo": "sha512",
-      "digest": "2GYjOb34prWcXKsQF+sc5Ffa/WSSP61HGogMKvl4/Yc5fzPxga3xvLxnC3fzIyVBZ4DHr/13o0SSQoeTJHqtoA==",
+      "digest": "LS7iCrgDyrRpKCxm9J+Pc31YjkYzEYGHi/zSYjgYzTlvzt9jgnU/7URi4JzmTBshd/iXHnXnnhcJza0bnA4ZjQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "4UWm5g0myTWuQb16Z+LlVen9OAwThulPr2YHPG7XSzXqp9mseJXET+I8FlKT7Z2uptK4GsO922LDO3AJPDNsDw=="
+      "signature": "xxcS079oJXIfUkbeGs986zuCH3eFFYt+Y6SLWlGq5rEfoclP6LYUC/XyRYduYncmaOzrjdnCNtQerx9O26FzCw=="
     }
   ]
 }
