@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.32",
+  "version": "0.4.33",
   "channel": "preview",
-  "name": "Enthalpy v0.4.32",
-  "notes": "# Enthalpy v0.4.32\n\n## Changes\n\n- Sign out uses an application dialog with working Cancel and Sign out\n  buttons on Windows.\n- Account deletion, workspace deletion, and conflict decisions use the same\n  confirmation controls. A second click cannot start another action while\n  confirmation is open.\n- Account settings shows the installed version before a workspace opens.\n- Copy error report supplies the app version and recent desktop error codes.\n  Reports exclude passwords, keys, workspace content, and raw error text.\n- An action failure no longer always claims that the desktop service is\n  unreachable.\n\n## Test this preview\n\nOpen Account settings and select Sign out. Check Cancel first, then select\nSign out again and confirm. Enthalpy must return to the sign-in page.\n\nIf a desktop action fails, select Copy error report in Account settings before\nyou close the app.\n\n## Known limits\n\nRecovery email is not available. After a workspace is restored from Trash,\nthis preview cannot restore its devices' Sync access. Existing local files\nremain available after sign-in.\n\nA Windows download failure stopped after a local app-state reset. Its exact\ncause is not confirmed. This release does not include a confirmed fix for\nthat failure.\n",
-  "publishedAt": "2026-09-16T17:22:15Z",
+  "name": "Enthalpy v0.4.33",
+  "notes": "# Enthalpy v0.4.33\n\n## Changes\n\n- Enthalpy is local-only. It does not require an account or a network\n  connection. Hosted Sync and sign-in are removed.\n- The first screen is the Workspace manager. Create a local workspace or open\n  a local folder.\n- File → Workspaces… opens the workspace manager when a workspace is already\n  open.\n- Projects and Areas share one package workspace. Notes, tasks, files, and\n  YAML source stay in the same view.\n\n## Test this preview\n\nStart Enthalpy. The first screen must be Workspaces, not sign-in. Create or\nopen a local workspace. The current week dashboard must open with today\nselected.\n\nOpen a Project and an Area. Both must show notes, tasks, and files in the\nsame package workspace. Use File → Workspaces… to return to the workspace\nlist.\n\n## Known limits\n\nThis is a limited preview. Hosted Sync is not available. Work stays on this\ndevice.\n",
+  "publishedAt": "2026-09-20T14:59:59Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.32/Enthalpy-0.4.32-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.33/Enthalpy-0.4.33-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 11203903,
+      "size": 9781127,
       "digestAlgo": "sha512",
-      "digest": "8qxQKhG0w0GLzaXewTvOIPEtJdC0GpR8CTN+X8n+M7dmWhCkiod67+AQh4aOYosiGqsi3QT/09bMRXnoBEEqUQ==",
+      "digest": "j1NKDK7sjI0zXrKcYphbqaIaHQBkzpCBZl9Dpx3yAkhnvlSzTvru1KDJn2TI5JGpuHnm++i4xtcZFoCfWMDpIQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "5V+35kn4mxO/XPIVY4lklp6tfcamPl8B9i8Jjws6OCC9efMUKgXF3+HtUwFlZxXqh4jA9dqvVTQnGgxsxa5sAw=="
+      "signature": "Dg6Id59+ZXmbIEUo2zxD3rszCRFMtcrnq/lx2rlpq/0qbwXfLQKmteCskIz6a57xldhYvAzb4PEIW6M9Ou5nAw=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.32/Enthalpy-0.4.32-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.33/Enthalpy-0.4.33-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 28759040,
+      "size": 24383488,
       "digestAlgo": "sha512",
-      "digest": "LS7iCrgDyrRpKCxm9J+Pc31YjkYzEYGHi/zSYjgYzTlvzt9jgnU/7URi4JzmTBshd/iXHnXnnhcJza0bnA4ZjQ==",
+      "digest": "FcR+kdF2CmFM8VW3vCCJlpAHIkBJ9B01+hIg8b/OlamHZ+hKwIoGoIjF4ukDmAdog+DYGPFT+UIiAzM0YRVEbg==",
       "signatureAlgo": "ed25519ph",
-      "signature": "xxcS079oJXIfUkbeGs986zuCH3eFFYt+Y6SLWlGq5rEfoclP6LYUC/XyRYduYncmaOzrjdnCNtQerx9O26FzCw=="
+      "signature": "z7B8xyiYG57xDm2tFkdZkn/lalPJa81plfSD9ozDQEMrDdG5LyVAZxhr1x4AOUXhlxVEvBC0r2ehJK6MAq4sDQ=="
     }
   ]
 }
