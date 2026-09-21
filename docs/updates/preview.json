@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.34",
+  "version": "0.4.35",
   "channel": "preview",
-  "name": "Enthalpy v0.4.34",
-  "notes": "# Enthalpy v0.4.34\n\n## Changes\n\n- Area overviews now put tasks, active Projects, recent notes, the Area brief,\n  and quick links in one workspace.\n- The Areas navigation now supports search, archived Areas, and direct access\n  to the selected Area files.\n- Recent notes in an Area can open in a preview before they open in a new tab.\n- Daily note file names now include the weekday, such as\n  `2026-09-20-sunday.md`.\n\n## Test this preview\n\nCreate or open a local workspace. Open an Area and confirm that its Overview\nshows the Area brief, tasks, active Projects, recent notes, and quick links.\nOpen a recent note preview, then open the note in a new tab.\n\nCreate today's Daily note. In the workspace folder, confirm that its file name\ncontains the date and lowercase weekday.\n\n## Known limits\n\nThis is a limited preview. Hosted Sync is not available. Work stays on this\ndevice.\n",
-  "publishedAt": "2026-09-21T00:12:35Z",
+  "name": "Enthalpy v0.4.35",
+  "notes": "# Enthalpy v0.4.35\n\n## Changes\n\n- Notes now has quick links for each top-level workspace location.\n- The Notes file list shows one selected location at a time and can filter its\n  files by name or path.\n- Open notes now show a document outline for fast heading navigation.\n- Daily context markers now appear as readable Project or Area chips in the\n  Live Markdown editor.\n\n## Test this preview\n\nOpen Notes and select Inbox, Daily, Projects, Areas, Resources, Archive, or\nAssets. Confirm that the file list shows the selected location. Filter the\nlist, then open a matching note.\n\nOpen a note with headings and use the outline to move between them. Open a\nDaily note with Project or Area sections and confirm that its context markers\nappear as readable chips.\n\n## Known limits\n\nThis is a limited preview. Hosted Sync is not available. Work stays on this\ndevice.\n",
+  "publishedAt": "2026-09-21T00:31:56Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.34/Enthalpy-0.4.34-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.35/Enthalpy-0.4.35-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 9785672,
+      "size": 9788983,
       "digestAlgo": "sha512",
-      "digest": "Yot5SeTE2es+ugS5xdkVQv5ZepFhY0dawoGG8ml+zvaV6biRjTnEbwOtpcfg91xwuAA2BtbdPcQ3eWHG4fJVSw==",
+      "digest": "6TJv3uxDcu0VULyH5uG4qb/l3z0q+Fcj7/qCqaYmwYMNXZeN6zkUR7WWsQcg12kbZB0BwFyiBVYSxh5bQD2kiQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "zFnHr2KNlkYTAXnY2UxG/upYXy0IuMHD5r4V8SdNqhBA36DS9FGkPegT2ltKNDxHAvwLC3ufX7YY2ho1/9n2BQ=="
+      "signature": "hehKLewM4w8nG6qUcxGug/mAY6ogYKneeO7eCUhadhIkDqOhjel8mISTFp639p2jfDw5BRqp6bYCiwdFcxfjDA=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.34/Enthalpy-0.4.34-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.35/Enthalpy-0.4.35-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 24403456,
+      "size": 24414720,
       "digestAlgo": "sha512",
-      "digest": "31nm8lzmf4hY6RKciap/qh1jh18zKXnERkdbTriI3iHmmLr7RbbKkKpucBbA7FwfPosBmhrQPeHnXy5mZChXHw==",
+      "digest": "ZomMesqx/M3TAcaup4oGYyPl0r/SRvSRww7RMk1yMNIjcqXTeIyV8Wto3YPR+g/AyMKmw+TaHQ3qAv53TmBGpQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "L/W1h9wKUxjrj82sDC5YxGy9E+iIp2OZBuU3+LvFXTs5KmsRDe8dAM+JDy4pnDwbWCgBbKfScJ2zg3YhQGUeBQ=="
+      "signature": "NW6Oybx2jQLMyrU0P4DlBIKuUHqkcm84lob1GjOeDe0Wi5l+G/2XqzESnuODt0Sprms773TABbnHAnxV9qfhCA=="
     }
   ]
 }
