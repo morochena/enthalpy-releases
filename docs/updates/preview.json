@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.36",
+  "version": "0.4.37",
   "channel": "preview",
-  "name": "Enthalpy v0.4.36",
-  "notes": "# Enthalpy v0.4.36\n\n## Changes\n\n- The Dashboard opens existing Daily notes that have date-only file names.\n- Daily note creation and task creation use an existing note for the selected\n  date. They do not create a second note with a different file name.\n- When two Daily notes use the same date, the Dashboard shows a conflict and\n  links to both files. Both files stay unchanged.\n- Rapid day selection keeps the last selected day after pending saves finish.\n- Application notifications close automatically and have a close button.\n\n## Test this preview\n\nSelect an earlier day with a saved Daily note. Confirm that its content opens.\nEdit the note, select another day, and return. Confirm that the edit remains.\n\nIf the Dashboard reports two notes for one date, open each file from the\nmessage and check its content. Enthalpy does not combine or delete these files.\n\n## Known limits\n\nThis is a limited preview. Hosted Sync is not available. Work stays on this\ndevice.\n",
-  "publishedAt": "2026-10-02T14:28:14Z",
+  "name": "Enthalpy v0.4.37",
+  "notes": "# Enthalpy v0.4.37\n\n## Changes\n\n- The Dashboard task panel now shows one list of open tasks, ordered by due\n  date, with unscheduled tasks last. Completed tasks are hidden. View all\n  opens the Tasks tab.\n- Settings now shows General first and selects it when Settings opens.\n- Type `[[` in a note to select an existing note. Suggestions show the note\n  title and workspace path. Notes with the same title keep distinct links.\n- Wiki links now open from Project and Area briefs, package files, and note\n  previews.\n\n## Test this preview\n\nOpen Dashboard and confirm that dated tasks appear in date order, followed\nby unscheduled tasks. Complete a task and confirm that it leaves the list.\nSelect View all to open Tasks.\n\nOpen Settings and confirm that General is first and selected.\n\nIn an editable note, type `[[` and select a note suggestion. Confirm that\nthe inserted link opens the selected note. Check a wiki link in a Project\nor Area brief, package file, or note preview.\n\n## Known limits\n\nThis is a limited preview. Hosted Sync is not available. Work stays on this\ndevice.\n",
+  "publishedAt": "2026-10-08T16:23:00Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.36/Enthalpy-0.4.36-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.37/Enthalpy-0.4.37-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 9791786,
+      "size": 9801221,
       "digestAlgo": "sha512",
-      "digest": "vmkD3Sh5pZUwkamVUjweKTywMpZ4IAhmUfRYapbzdV2mYXVrVcDiQxGItsqQorHG8ZpG3N1WT899HipF+3Bouw==",
+      "digest": "YN/1ELfidHnlBpgF3myPJroD91ADh7rB6+ApHbPWUmJ7IlPIdm9u7Cp3m4Eg0geE5SyHEr0OWilY4RxBFu/iHA==",
       "signatureAlgo": "ed25519ph",
-      "signature": "HaQGM2ScINHduD5TA6a2vnYFtvNJrROkmkFnWB9ec4euY3IYn8NoS35NbZUSDgwaNZzwHdPIA+r1XGzDwd5gCA=="
+      "signature": "674NQF35vxCF34cLzkoZ1cRoIOWiXGXalz+THvYo+N91N/BXAyO61+ulB7TGRBjAMzgwaKQI+A2zo9LKsdO3Aw=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.36/Enthalpy-0.4.36-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.37/Enthalpy-0.4.37-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 24427008,
+      "size": 24461312,
       "digestAlgo": "sha512",
-      "digest": "kX9zLRyZcxernNBlI60Brj9xJr1obNvTP1wmycJdgH8ieSIgxSSuZ0a8gPlCfbW7qf6c2OUFjMf2OEp/0M6WBA==",
+      "digest": "4+n36hAdPCQ/z5TOSBG6fLMZTgj4pNPhyymP0C9QOhwyBuvOS+w5ml6TSQtgBexLSNN90S3igQxjBWjhi7qlGQ==",
       "signatureAlgo": "ed25519ph",
-      "signature": "BgDG8dub5I5acwS6HegQM+A8E5A0iQt2fFdOuVHICVeEbuYqldP4DUjhc/1D1cLk5aw25sfEOBm1vKdVZXCfBQ=="
+      "signature": "tHmY2RsGFkv6HRsQ5MSfOeKU4pTwdixI8v9YtQR60/vT4E3DwG/lQ2m+17rYUCPNV6qkWxeGEHfyW5E7NsepAw=="
     }
   ]
 }
