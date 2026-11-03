@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.39",
+  "version": "0.4.40",
   "channel": "preview",
-  "name": "Enthalpy v0.4.39",
-  "notes": "# Enthalpy v0.4.39\n\n## Improved\n\n- Read the release notes in the update notice before you restart. The notes\n  also remain available in Settings when you choose Later.\n",
-  "publishedAt": "2026-11-03T17:23:37Z",
+  "name": "Enthalpy v0.4.40",
+  "notes": "# Enthalpy v0.4.40\n\n## Improved\n\n- Use clearer labels and keyboard focus indicators across the application.\n- Identify each task checkbox and show the selected view to assistive technology.\n- Review a new import preview after changing its source, destination, or workspace name.\n",
+  "publishedAt": "2026-11-03T18:48:59Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.39/Enthalpy-0.4.39-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.40/Enthalpy-0.4.40-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 9801664,
+      "size": 9801713,
       "digestAlgo": "sha512",
-      "digest": "Kpb5MZol5UQB7l3wE9D3361gWPmEuvi4n44yT8wpJYNd8Bpr3lkLSDyhmoAcK8cogxUXwUCxKZMUY4nqH2CwOg==",
+      "digest": "iylp7y9ioKScyok9o7SEo3bz4qBp5e4mraOLBHCPjbfLEppv3w4AjogxoCfGodl+vZtehHZO/ZD/AVBf5lP/3w==",
       "signatureAlgo": "ed25519ph",
-      "signature": "DJc1QH9qXuYMr4mZzLZHnX1/5/Jug+fcGij5O9yCFLGTvBRYPZnQL462eh/L+Y4cs4J+9brYk2WgdCQaQZ+kCA=="
+      "signature": "Eia9j1J9mxRBPirrDWgtej9Wes42Gr1GSLKxfKgTKuiBaoN1hVu8vjcic+2RnVyKfuMOimXbgvXQcot9Ac5HCQ=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.39/Enthalpy-0.4.39-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.40/Enthalpy-0.4.40-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
       "size": 24462336,
       "digestAlgo": "sha512",
-      "digest": "gwWuIBdMEa4MC/DR10Mzn7hNZUBPf8xjMYKrXOhrVHCxk1fA9k36GW44DslBlNekNxtaWGA5etY43aiyvB1qLw==",
+      "digest": "y1y8C3ehkhCDoqbe0al/QL+Le6ajd0lnH5H81yUnnIt8BUUdbftBilFQQXLB5biSE1/jFwx4yrU78zWu664p9w==",
       "signatureAlgo": "ed25519ph",
-      "signature": "lnIU63GLj8moq+YyiWsKlcx470yIk1ugOfcGb4bEfe7kNoefP7T+orqT61fx6DMLeLNa/f2wUKgTwp0VglioAA=="
+      "signature": "lv9HWl9dqoBXhkMmr8uQXRgXhgxXbsd/RmW7J44h7lr7kqtpnsAlPKcNIWV4ul4pwM5nLgvMrON+1US27EIsAQ=="
     }
   ]
 }
