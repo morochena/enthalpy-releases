@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.37",
+  "version": "0.4.39",
   "channel": "preview",
-  "name": "Enthalpy v0.4.37",
-  "notes": "# Enthalpy v0.4.37\n\n## Changes\n\n- The Dashboard task panel now shows one list of open tasks, ordered by due\n  date, with unscheduled tasks last. Completed tasks are hidden. View all\n  opens the Tasks tab.\n- Settings now shows General first and selects it when Settings opens.\n- Type `[[` in a note to select an existing note. Suggestions show the note\n  title and workspace path. Notes with the same title keep distinct links.\n- Wiki links now open from Project and Area briefs, package files, and note\n  previews.\n\n## Test this preview\n\nOpen Dashboard and confirm that dated tasks appear in date order, followed\nby unscheduled tasks. Complete a task and confirm that it leaves the list.\nSelect View all to open Tasks.\n\nOpen Settings and confirm that General is first and selected.\n\nIn an editable note, type `[[` and select a note suggestion. Confirm that\nthe inserted link opens the selected note. Check a wiki link in a Project\nor Area brief, package file, or note preview.\n\n## Known limits\n\nThis is a limited preview. Hosted Sync is not available. Work stays on this\ndevice.\n",
-  "publishedAt": "2026-10-08T16:23:00Z",
+  "name": "Enthalpy v0.4.39",
+  "notes": "# Enthalpy v0.4.39\n\n## Improved\n\n- Read the release notes in the update notice before you restart. The notes\n  also remain available in Settings when you choose Later.\n",
+  "publishedAt": "2026-11-03T17:23:37Z",
   "artifacts": [
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.37/Enthalpy-0.4.37-darwin-arm64.zip",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.39/Enthalpy-0.4.39-darwin-arm64.zip",
       "platform": "darwin",
       "arch": "arm64",
-      "size": 9801221,
+      "size": 9801664,
       "digestAlgo": "sha512",
-      "digest": "YN/1ELfidHnlBpgF3myPJroD91ADh7rB6+ApHbPWUmJ7IlPIdm9u7Cp3m4Eg0geE5SyHEr0OWilY4RxBFu/iHA==",
+      "digest": "Kpb5MZol5UQB7l3wE9D3361gWPmEuvi4n44yT8wpJYNd8Bpr3lkLSDyhmoAcK8cogxUXwUCxKZMUY4nqH2CwOg==",
       "signatureAlgo": "ed25519ph",
-      "signature": "674NQF35vxCF34cLzkoZ1cRoIOWiXGXalz+THvYo+N91N/BXAyO61+ulB7TGRBjAMzgwaKQI+A2zo9LKsdO3Aw=="
+      "signature": "DJc1QH9qXuYMr4mZzLZHnX1/5/Jug+fcGij5O9yCFLGTvBRYPZnQL462eh/L+Y4cs4J+9brYk2WgdCQaQZ+kCA=="
     },
     {
-      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.37/Enthalpy-0.4.37-windows-amd64.exe",
+      "url": "https://github.com/morochena/enthalpy-releases/releases/download/v0.4.39/Enthalpy-0.4.39-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 24461312,
+      "size": 24462336,
       "digestAlgo": "sha512",
-      "digest": "4+n36hAdPCQ/z5TOSBG6fLMZTgj4pNPhyymP0C9QOhwyBuvOS+w5ml6TSQtgBexLSNN90S3igQxjBWjhi7qlGQ==",
+      "digest": "gwWuIBdMEa4MC/DR10Mzn7hNZUBPf8xjMYKrXOhrVHCxk1fA9k36GW44DslBlNekNxtaWGA5etY43aiyvB1qLw==",
       "signatureAlgo": "ed25519ph",
-      "signature": "tHmY2RsGFkv6HRsQ5MSfOeKU4pTwdixI8v9YtQR60/vT4E3DwG/lQ2m+17rYUCPNV6qkWxeGEHfyW5E7NsepAw=="
+      "signature": "lnIU63GLj8moq+YyiWsKlcx470yIk1ugOfcGb4bEfe7kNoefP7T+orqT61fx6DMLeLNa/f2wUKgTwp0VglioAA=="
     }
   ]
 }
